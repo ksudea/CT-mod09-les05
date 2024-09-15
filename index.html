@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--head includes meta for responsive design-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 9 Lesson 5 Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+</head>
+<body>
+    <section id="q1-task1" class="container my-3">
+        <form>
+            <div class="row mb-2 text-center">
+                <h2>Form Task 1</h2>
+            </div>
+            <div class="row my-3 p-2">
+                <div class="col-md-6 mt-2">
+                    <div class="form-group">
+                        <label for="name" class="form-label my-1">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name:">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="form-group">
+                        <label for="email" class="form-label my-1">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your e-mail:">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="form-group">
+                        <label for="preference" class="form-label my-1">Preference</label>
+                        <input type="text" class="form-control" id="preference" placeholder="Enter your preference:">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <div class="form-group">
+                        <label for="message" class="form-label my-1">Message</label>
+                        <textarea rows=3 class="form-control" id="message" placeholder="Enter your e-mail:"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center my-3 px-5 mx-5 py-2">
+                    <button type="submit" class="btn btn-primary btn-lg shadow-lg">Submit</button>
+            </div>
+        </form>
+    </section>   
+    <section id="q1-task2" class="container my-3">
+        <div class="row mt-5 mb-2 text-center">
+            <h2>Form Task 2: Contact Us</h2>
+        </div>
+        <form class="form-inline" action="/">
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                  <label for="name" class="col-form-label">Name</label>
+                </div>
+                <div class="col-auto">
+                  <input type="text" id="name" class="form-control">
+                </div>
+                <div class="col-auto">
+                    <label for="email" class="col-form-label">E-mail</label>
+                </div>
+                <div class="col-auto">
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="col-auto">
+                    <label for="message" class="col-form-label">Message</label>
+                </div>
+                <div class="col-auto">
+                    <textarea rows="2" id="message" class="form-control"></textarea>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+            </div>
+          </form>  
+    </section>  
+    <section id="q1-task3" class="container my-5">
+        <form>
+            <div class="row mb-2 text-center">
+                <h2>Form Task 3: Stacked</h2>
+            </div>
+            <div class="row my-3 p-2">
+                    <div class="form-group my-2">
+                        <label for="name" class="form-label my-1">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name:">
+                    </div>
+                    <div class="form-group my-2">
+                        <label for="email" class="form-label my-1">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your e-mail:">
+                    </div>
+                    <div class="form-group my-2">
+                        <label for="preference" class="form-label my-1">Preference</label>
+                        <input type="text" class="form-control" id="preference" placeholder="Enter your preference:">
+                    </div>
+                    <div class="form-group my-2">
+                        <label for="message" class="form-label my-1">Message</label>
+                        <textarea rows=3 class="form-control" id="message" placeholder="Enter your e-mail:"></textarea>
+                    </div>
+            </div>
+            <div class="row d-flex justify-content-center my-3 px-5 mx-5 py-2">
+                    <button type="submit" class="btn btn-primary btn-lg shadow-lg">Submit</button>
+            </div>
+        </form>
+    </section>   
+
+    <section id="q2" class="container my-5">
+        <div class="row mb-2 text-center">
+            <h2>Form Question 2: Stylized</h2>
+        </div>
+        <form class="needs-validation" novalidate>
+            <div class="row my-3 p-2">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name:" required>
+                        <label for="floatingInput" class="form-label ms-2">Name</label>
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please enter your name.</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput2" placeholder="name@example.com" required>
+                        <label for="floatingInput2" class="form-label ms-2">Email address</label>
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please enter a valid e-mail.</div>
+                    </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                        <label for="floatingPassword" class="form-label ms-2">Password</label>
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please enter your password.</div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" style="height: 100px" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea" class="form-label ms-2">Comments</label>                                          
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                          <label class="form-check-label" for="invalidCheck2">
+                            Agree to terms and conditions
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-lg shadow-lg my-3">Submit</button>
+
+            </div>
+        </form>
+    </section>
+
+    <script>
+        (function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  
+      </script>
+
+</body>
